@@ -4952,6 +4952,298 @@
           },
           {
             "kind": "TypeDecl",
+            "name": "NudgeVersionObjc",
+            "printedName": "NudgeVersionObjc",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "standard",
+                "printedName": "standard",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(nudge.Nudge.NudgeVersionObjc.Type) -> nudge.Nudge.NudgeVersionObjc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NudgeVersionObjc",
+                        "printedName": "nudge.Nudge.NudgeVersionObjc",
+                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "nudge.Nudge.NudgeVersionObjc.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgeVersionObjc",
+                            "printedName": "nudge.Nudge.NudgeVersionObjc",
+                            "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5nudge5NudgeC0B11VersionObjcO8standardyA2EmF",
+                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8standardyA2EmF",
+                "moduleName": "nudge",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "geo",
+                "printedName": "geo",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(nudge.Nudge.NudgeVersionObjc.Type) -> nudge.Nudge.NudgeVersionObjc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NudgeVersionObjc",
+                        "printedName": "nudge.Nudge.NudgeVersionObjc",
+                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "nudge.Nudge.NudgeVersionObjc.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgeVersionObjc",
+                            "printedName": "nudge.Nudge.NudgeVersionObjc",
+                            "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5nudge5NudgeC0B11VersionObjcO3geoyA2EmF",
+                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO3geoyA2EmF",
+                "moduleName": "nudge",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "legacy",
+                "printedName": "legacy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(nudge.Nudge.NudgeVersionObjc.Type) -> nudge.Nudge.NudgeVersionObjc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NudgeVersionObjc",
+                        "printedName": "nudge.Nudge.NudgeVersionObjc",
+                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "nudge.Nudge.NudgeVersionObjc.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NudgeVersionObjc",
+                            "printedName": "nudge.Nudge.NudgeVersionObjc",
+                            "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5nudge5NudgeC0B11VersionObjcO6legacyyA2EmF",
+                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO6legacyyA2EmF",
+                "moduleName": "nudge",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "nudge.Nudge.NudgeVersionObjc?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NudgeVersionObjc",
+                        "printedName": "nudge.Nudge.NudgeVersionObjc",
+                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5nudge5NudgeC0B11VersionObjcO8rawValueAESgSi_tcfc",
+                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8rawValueAESgSi_tcfc",
+                "moduleName": "nudge",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5nudge5NudgeC0B11VersionObjcO8rawValueSivp",
+                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8rawValueSivp",
+                "moduleName": "nudge",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5nudge5NudgeC0B11VersionObjcO8rawValueSivg",
+                    "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8rawValueSivg",
+                    "moduleName": "nudge",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5nudge5NudgeC0B11VersionObjcO",
+            "mangledName": "$s5nudge5NudgeC0B11VersionObjcO",
+            "moduleName": "nudge",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromObjC",
+            "printedName": "fromObjC(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NudgeVersion",
+                "printedName": "nudge.Nudge.NudgeVersion",
+                "usr": "s:5nudge5NudgeC0B7VersionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NudgeVersionObjc",
+                "printedName": "nudge.Nudge.NudgeVersionObjc",
+                "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5nudge5NudgeC8fromObjCyAC0B7VersionOAC0bE4ObjcOFZ",
+            "mangledName": "$s5nudge5NudgeC8fromObjCyAC0B7VersionOAC0bE4ObjcOFZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
             "name": "NudgeErrors",
             "printedName": "NudgeErrors",
             "children": [
@@ -5809,917 +6101,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "nudge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Segment",
-        "printedName": "Segment",
-        "declKind": "Import",
-        "moduleName": "nudge"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NudgeAnalytics",
-        "printedName": "NudgeAnalytics",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "deviceModel",
-            "printedName": "deviceModel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC11deviceModelSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC11deviceModelSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC11deviceModelSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC11deviceModelSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "osVersion",
-            "printedName": "osVersion",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC9osVersionSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC9osVersionSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC9osVersionSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC9osVersionSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "platform",
-            "printedName": "platform",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC8platformSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC8platformSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC8platformSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC8platformSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "RECEIVED_NOTIFICATION",
-            "printedName": "RECEIVED_NOTIFICATION",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC21RECEIVED_NOTIFICATIONSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC21RECEIVED_NOTIFICATIONSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC21RECEIVED_NOTIFICATIONSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC21RECEIVED_NOTIFICATIONSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "TAPPED_NOTIFICATION",
-            "printedName": "TAPPED_NOTIFICATION",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC19TAPPED_NOTIFICATIONSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC19TAPPED_NOTIFICATIONSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC19TAPPED_NOTIFICATIONSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC19TAPPED_NOTIFICATIONSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "APPLICATION_ERROR",
-            "printedName": "APPLICATION_ERROR",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC17APPLICATION_ERRORSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC17APPLICATION_ERRORSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC17APPLICATION_ERRORSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC17APPLICATION_ERRORSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "USER_CREATED",
-            "printedName": "USER_CREATED",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC12USER_CREATEDSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC12USER_CREATEDSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC12USER_CREATEDSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC12USER_CREATEDSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "NOTIFICATION_PERMISSION",
-            "printedName": "NOTIFICATION_PERMISSION",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC23NOTIFICATION_PERMISSIONSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC23NOTIFICATION_PERMISSIONSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC23NOTIFICATION_PERMISSIONSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC23NOTIFICATION_PERMISSIONSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "LOCATION_PERMISSION",
-            "printedName": "LOCATION_PERMISSION",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC19LOCATION_PERMISSIONSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC19LOCATION_PERMISSIONSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC19LOCATION_PERMISSIONSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC19LOCATION_PERMISSIONSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "INTIALIZE_NUDGE",
-            "printedName": "INTIALIZE_NUDGE",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC15INTIALIZE_NUDGESSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC15INTIALIZE_NUDGESSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC15INTIALIZE_NUDGESSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC15INTIALIZE_NUDGESSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "REGISTER_TOKEN",
-            "printedName": "REGISTER_TOKEN",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5nudge14NudgeAnalyticsC14REGISTER_TOKENSSvpZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC14REGISTER_TOKENSSvpZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5nudge14NudgeAnalyticsC14REGISTER_TOKENSSvgZ",
-                "mangledName": "$s5nudge14NudgeAnalyticsC14REGISTER_TOKENSSvgZ",
-                "moduleName": "nudge",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "track",
-            "printedName": "track(eventName:data:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5nudge14NudgeAnalyticsC5track9eventName4dataySS_SDySSypGtFZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC5track9eventName4dataySS_SDySSypGtFZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setup",
-            "printedName": "setup()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5nudge14NudgeAnalyticsC5setupyyFZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC5setupyyFZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "trackError",
-            "printedName": "trackError(error:file:function:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5nudge14NudgeAnalyticsC10trackError5error4file8functionyyp_ypyptFZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC10trackError5error4file8functionyyp_ypyptFZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "pushAnalytics",
-            "printedName": "pushAnalytics(eventName:notificationPayload:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.AnyHashable : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5nudge14NudgeAnalyticsC04pushC09eventName19notificationPayloadySS_SDys11AnyHashableVypGtFZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC04pushC09eventName19notificationPayloadySS_SDys11AnyHashableVypGtFZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getDeviceModel",
-            "printedName": "getDeviceModel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5nudge14NudgeAnalyticsC14getDeviceModelSSyFZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC14getDeviceModelSSyFZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getNetworkStatus",
-            "printedName": "getNetworkStatus()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5nudge14NudgeAnalyticsC16getNetworkStatusSSyFZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC16getNetworkStatusSSyFZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setupAnalytics",
-            "printedName": "setupAnalytics()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5nudge14NudgeAnalyticsC05setupC0yyFZ",
-            "mangledName": "$s5nudge14NudgeAnalyticsC05setupC0yyFZ",
-            "moduleName": "nudge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NudgeAnalytics",
-                "printedName": "nudge.NudgeAnalytics",
-                "usr": "c:@M@nudge@objc(cs)NudgeAnalytics"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@nudge@objc(cs)NudgeAnalytics(im)init",
-            "mangledName": "$s5nudge14NudgeAnalyticsCACycfc",
-            "moduleName": "nudge",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@nudge@objc(cs)NudgeAnalytics",
-        "mangledName": "$s5nudge14NudgeAnalyticsC",
-        "moduleName": "nudge",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
         "declKind": "Import",
@@ -6804,6 +6185,159 @@
                 "declKind": "Accessor",
                 "usr": "s:5nudge9NudgeBaseC8bundleIdSSSgvgZ",
                 "mangledName": "$s5nudge9NudgeBaseC8bundleIdSSSgvgZ",
+                "moduleName": "nudge",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceModel",
+            "printedName": "deviceModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5nudge9NudgeBaseC11deviceModelSSvpZ",
+            "mangledName": "$s5nudge9NudgeBaseC11deviceModelSSvpZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5nudge9NudgeBaseC11deviceModelSSvgZ",
+                "mangledName": "$s5nudge9NudgeBaseC11deviceModelSSvgZ",
+                "moduleName": "nudge",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "osVersion",
+            "printedName": "osVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5nudge9NudgeBaseC9osVersionSSvpZ",
+            "mangledName": "$s5nudge9NudgeBaseC9osVersionSSvpZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5nudge9NudgeBaseC9osVersionSSvgZ",
+                "mangledName": "$s5nudge9NudgeBaseC9osVersionSSvgZ",
+                "moduleName": "nudge",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5nudge9NudgeBaseC8platformSSvpZ",
+            "mangledName": "$s5nudge9NudgeBaseC8platformSSvpZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5nudge9NudgeBaseC8platformSSvgZ",
+                "mangledName": "$s5nudge9NudgeBaseC8platformSSvgZ",
                 "moduleName": "nudge",
                 "static": true,
                 "implicit": true,
@@ -6965,6 +6499,29 @@
             "moduleName": "nudge",
             "static": true,
             "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceModel",
+            "printedName": "getDeviceModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5nudge9NudgeBaseC14getDeviceModelSSyFZ",
+            "mangledName": "$s5nudge9NudgeBaseC14getDeviceModelSSyFZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -7289,6 +6846,81 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "setNotificationPermissions",
+            "printedName": "setNotificationPermissions(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5nudge9NudgeBaseC26setNotificationPermissions6resultySS_tFZ",
+            "mangledName": "$s5nudge9NudgeBaseC26setNotificationPermissions6resultySS_tFZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackMessageEvent",
+            "printedName": "trackMessageEvent(endpointName:notificationPayload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5nudge9NudgeBaseC17trackMessageEvent12endpointName19notificationPayloadySS_SDys11AnyHashableVypGtFZ",
+            "mangledName": "$s5nudge9NudgeBaseC17trackMessageEvent12endpointName19notificationPayloadySS_SDys11AnyHashableVypGtFZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -7521,8 +7153,8 @@
           },
           {
             "kind": "Function",
-            "name": "setLocationPermissionDefault",
-            "printedName": "setLocationPermissionDefault()",
+            "name": "setKeyValueStoreLocationPermissionDefault",
+            "printedName": "setKeyValueStoreLocationPermissionDefault()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7531,8 +7163,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@nudge@objc(cs)NudgeGeo(cm)setLocationPermissionDefault",
-            "mangledName": "$s5nudge8NudgeGeoC28setLocationPermissionDefaultyyFZ",
+            "usr": "c:@M@nudge@objc(cs)NudgeGeo(cm)setKeyValueStoreLocationPermissionDefault",
+            "mangledName": "$s5nudge8NudgeGeoC41setKeyValueStoreLocationPermissionDefaultyyFZ",
             "moduleName": "nudge",
             "static": true,
             "declAttributes": [
@@ -7585,6 +7217,34 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLocationPermissions",
+            "printedName": "setLocationPermissions(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5nudge8NudgeGeoC22setLocationPermissions6resultySS_tFZ",
+            "mangledName": "$s5nudge8NudgeGeoC22setLocationPermissions6resultySS_tFZ",
+            "moduleName": "nudge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7796,266 +7456,322 @@
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1242,
+      "offset": 1085,
+      "length": 33,
+      "value": "\"mobile\/notification-permissions\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 23,
+      "value": "\"mobile\/nudge-received\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1219,
+      "length": 21,
+      "value": "\"mobile\/nudge-tapped\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1290,
+      "offset": 1492,
       "length": 15,
       "value": "\"federation_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1338,
+      "offset": 1540,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1382,
+      "offset": 1584,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1425,
+      "offset": 1627,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1467,
+      "offset": 1669,
       "length": 11,
       "value": "\"bundle_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1721,
       "length": 17,
       "value": "\"device_platform\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1773,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1623,
+      "offset": 1825,
       "length": 25,
       "value": "\"device_platform_version\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1686,
+      "offset": 1888,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 1932,
       "length": 21,
       "value": "\"device_manufacturer\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1783,
+      "offset": 1985,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1832,
+      "offset": 2034,
       "length": 10,
       "value": "\"timezone\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1875,
+      "offset": 2077,
       "length": 8,
       "value": "\"toggle\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1916,
+      "offset": 2118,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 2160,
       "length": 9,
       "value": "\"disable\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2003,
+      "offset": 2205,
       "length": 12,
       "value": "\"is_enabled\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2056,
+      "offset": 2258,
       "length": 17,
       "value": "\"organization_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2324,
+      "length": 25,
+      "value": "\"notification_permission\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 21,
+      "value": "\"location_permission\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2451,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2501,
+      "length": 13,
+      "value": "\"breadcrumbs\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2550,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2629,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2185,
+      "offset": 2673,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2237,
+      "offset": 2725,
       "length": 17,
       "value": "\"organization_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2294,
+      "offset": 2782,
       "length": 15,
       "value": "\"notifications\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2349,
+      "offset": 2837,
       "length": 16,
       "value": "\"library_config\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2457,
+      "offset": 2945,
       "length": 18,
       "value": "\"desired_accuracy\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2516,
+      "offset": 3004,
       "length": 17,
       "value": "\"distance_filter\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2575,
+      "offset": 3063,
       "length": 23,
       "value": "\"analytics_api_key_ios\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 3130,
       "length": 24,
       "value": "\"tokendealer_secret_ios\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 3200,
       "length": 27,
       "value": "\"ios_location_dialog_title\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2784,
+      "offset": 3272,
       "length": 26,
       "value": "\"ios_location_dialog_body\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3086,
+      "offset": 3574,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
+      "offset": 3656,
       "length": 6,
       "value": "\"CORE\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3212,
+      "offset": 3700,
       "length": 14,
       "value": "\"access_token\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
+      "offset": 3785,
       "length": 8,
       "value": "\"apiKey\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3335,
+      "offset": 3823,
       "length": 9,
       "value": "\"enabled\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3385,
+      "offset": 3873,
       "length": 20,
       "value": "\"showLocationDialog\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3440,
+      "offset": 3928,
       "length": 14,
       "value": "\"federationId\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3489,
+      "offset": 3977,
       "length": 14,
       "value": "\"nudgeVersion\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6070,
+      "offset": 6558,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
@@ -8139,14 +7855,14 @@
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/HttpClientApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2671,
+      "offset": 2673,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/HttpClientApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2714,
+      "offset": 2716,
       "length": 5,
       "value": "false"
     },
@@ -8162,7 +7878,7 @@
       "kind": "StringLiteral",
       "offset": 131,
       "length": 7,
-      "value": "\"4.0.0\""
+      "value": "\"4.1.0\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/KeyValueStore\/KeyValueStore.swift",
@@ -8523,122 +8239,31 @@
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 575,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
       "kind": "Dictionary",
-      "offset": 649,
+      "offset": 1135,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 150,
-      "length": 22,
-      "value": "\"NudgeAnalytics.swift\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 34,
-      "value": "\"yK7oqWuyB8RUrPYqxyR7n2FjD32Av666\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 414,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 457,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 6,
-      "value": "\"wifi\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 529,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 6,
-      "value": "\"none\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 608,
-      "length": 28,
-      "value": "\"User Received Notification\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 681,
-      "length": 26,
-      "value": "\"User Tapped Notification\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 750,
-      "length": 19,
-      "value": "\"Application Error\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 14,
-      "value": "\"User Created\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 870,
-      "length": 25,
-      "value": "\"Notification Permission\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 940,
-      "length": 21,
-      "value": "\"Location Permission\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1002,
-      "length": 18,
-      "value": "\"Initialize Nudge\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1060,
-      "length": 16,
-      "value": "\"Register Token\""
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeAnalytics\/NudgeAnalytics.swift",
-      "kind": "FloatLiteral",
-      "offset": 6826,
-      "length": 3,
-      "value": "1.0"
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/NudgeBase.swift",
@@ -8649,8 +8274,15 @@
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/NudgeBase.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/NudgeBase.swift",
       "kind": "Dictionary",
-      "offset": 331,
+      "offset": 474,
       "length": 3,
       "value": "[]"
     },

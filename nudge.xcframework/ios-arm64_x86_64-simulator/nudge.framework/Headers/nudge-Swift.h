@@ -335,11 +335,11 @@ SWIFT_CLASS("_TtC5nudge5Nudge")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
-SWIFT_CLASS("_TtC5nudge14NudgeAnalytics")
-@interface NudgeAnalytics : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
+typedef SWIFT_ENUM(NSInteger, NudgeVersionObjc, open) {
+  NudgeVersionObjcStandard = 0,
+  NudgeVersionObjcGeo = 1,
+  NudgeVersionObjcLegacy = 2,
+};
 
 
 SWIFT_CLASS("_TtC5nudge9NudgeBase")
@@ -354,7 +354,7 @@ SWIFT_CLASS("_TtC5nudge8NudgeGeo")
 @interface NudgeGeo : NudgeBase
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options callback:(void (^ _Nullable)(void))callback OBJC_DESIGNATED_INITIALIZER;
 + (NSString * _Nonnull)getLocationPermissionStatus SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLocationPermissionDefault;
++ (void)setKeyValueStoreLocationPermissionDefault;
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options SWIFT_UNAVAILABLE;
 @end
 
@@ -711,11 +711,11 @@ SWIFT_CLASS("_TtC5nudge5Nudge")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
-SWIFT_CLASS("_TtC5nudge14NudgeAnalytics")
-@interface NudgeAnalytics : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
+typedef SWIFT_ENUM(NSInteger, NudgeVersionObjc, open) {
+  NudgeVersionObjcStandard = 0,
+  NudgeVersionObjcGeo = 1,
+  NudgeVersionObjcLegacy = 2,
+};
 
 
 SWIFT_CLASS("_TtC5nudge9NudgeBase")
@@ -730,7 +730,7 @@ SWIFT_CLASS("_TtC5nudge8NudgeGeo")
 @interface NudgeGeo : NudgeBase
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options callback:(void (^ _Nullable)(void))callback OBJC_DESIGNATED_INITIALIZER;
 + (NSString * _Nonnull)getLocationPermissionStatus SWIFT_WARN_UNUSED_RESULT;
-+ (void)setLocationPermissionDefault;
++ (void)setKeyValueStoreLocationPermissionDefault;
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options SWIFT_UNAVAILABLE;
 @end
 
