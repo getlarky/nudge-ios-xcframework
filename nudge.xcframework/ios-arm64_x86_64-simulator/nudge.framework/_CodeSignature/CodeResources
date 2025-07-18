@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/nudge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5eqPm+9LjHYIsPcWdw5uDkhYIAE=
+		QQOBXU2LYoFVQ79xEIvsX8JXtR4=
 		</data>
 		<key>Modules/nudge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/nudge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TCw71o9V+4DCamMjDTuLUk9WmO0=
+		rymUh7a3PkJC/KmxLiJ0FctQnhk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -144,11 +144,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5eqPm+9LjHYIsPcWdw5uDkhYIAE=
+			QQOBXU2LYoFVQ79xEIvsX8JXtR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			3gB230LdYeP/e6iPLg4RMUGx49/sqLRGwirJ22uyyvE=
+			yk/3/on18zss1rFYO5K3p+T15rzDdjmlVgZzsOxkPnc=
 			</data>
 		</dict>
 		<key>Modules/nudge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -199,11 +199,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TCw71o9V+4DCamMjDTuLUk9WmO0=
+			rymUh7a3PkJC/KmxLiJ0FctQnhk=
 			</data>
 			<key>hash2</key>
 			<data>
-			r6IFhQKuFiczGWjFzWvlg07J4P1U4+l8ynPp+6eewbk=
+			DoFRaas7vyQSLXED/XP4kLWdJP446OmSeQTgmA5hM/o=
 			</data>
 		</dict>
 	</dict>
