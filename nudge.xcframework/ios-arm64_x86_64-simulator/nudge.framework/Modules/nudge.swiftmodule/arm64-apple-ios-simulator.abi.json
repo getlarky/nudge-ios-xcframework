@@ -4951,272 +4951,9 @@
             ]
           },
           {
-            "kind": "TypeDecl",
-            "name": "NudgeVersionObjc",
-            "printedName": "NudgeVersionObjc",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "standard",
-                "printedName": "standard",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(nudge.Nudge.NudgeVersionObjc.Type) -> nudge.Nudge.NudgeVersionObjc",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NudgeVersionObjc",
-                        "printedName": "nudge.Nudge.NudgeVersionObjc",
-                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "nudge.Nudge.NudgeVersionObjc.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NudgeVersionObjc",
-                            "printedName": "nudge.Nudge.NudgeVersionObjc",
-                            "usr": "s:5nudge5NudgeC0B11VersionObjcO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5nudge5NudgeC0B11VersionObjcO8standardyA2EmF",
-                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8standardyA2EmF",
-                "moduleName": "nudge",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "fixedbinaryorder": 0
-              },
-              {
-                "kind": "Var",
-                "name": "geo",
-                "printedName": "geo",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(nudge.Nudge.NudgeVersionObjc.Type) -> nudge.Nudge.NudgeVersionObjc",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NudgeVersionObjc",
-                        "printedName": "nudge.Nudge.NudgeVersionObjc",
-                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "nudge.Nudge.NudgeVersionObjc.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NudgeVersionObjc",
-                            "printedName": "nudge.Nudge.NudgeVersionObjc",
-                            "usr": "s:5nudge5NudgeC0B11VersionObjcO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5nudge5NudgeC0B11VersionObjcO3geoyA2EmF",
-                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO3geoyA2EmF",
-                "moduleName": "nudge",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "fixedbinaryorder": 1
-              },
-              {
-                "kind": "Var",
-                "name": "legacy",
-                "printedName": "legacy",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(nudge.Nudge.NudgeVersionObjc.Type) -> nudge.Nudge.NudgeVersionObjc",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NudgeVersionObjc",
-                        "printedName": "nudge.Nudge.NudgeVersionObjc",
-                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "nudge.Nudge.NudgeVersionObjc.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NudgeVersionObjc",
-                            "printedName": "nudge.Nudge.NudgeVersionObjc",
-                            "usr": "s:5nudge5NudgeC0B11VersionObjcO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5nudge5NudgeC0B11VersionObjcO6legacyyA2EmF",
-                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO6legacyyA2EmF",
-                "moduleName": "nudge",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "fixedbinaryorder": 2
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "nudge.Nudge.NudgeVersionObjc?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NudgeVersionObjc",
-                        "printedName": "nudge.Nudge.NudgeVersionObjc",
-                        "usr": "s:5nudge5NudgeC0B11VersionObjcO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:5nudge5NudgeC0B11VersionObjcO8rawValueAESgSi_tcfc",
-                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8rawValueAESgSi_tcfc",
-                "moduleName": "nudge",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:5nudge5NudgeC0B11VersionObjcO8rawValueSivp",
-                "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8rawValueSivp",
-                "moduleName": "nudge",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:5nudge5NudgeC0B11VersionObjcO8rawValueSivg",
-                    "mangledName": "$s5nudge5NudgeC0B11VersionObjcO8rawValueSivg",
-                    "moduleName": "nudge",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:5nudge5NudgeC0B11VersionObjcO",
-            "mangledName": "$s5nudge5NudgeC0B11VersionObjcO",
-            "moduleName": "nudge",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "enumRawTypeName": "Int",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              }
-            ]
-          },
-          {
             "kind": "Function",
-            "name": "fromObjC",
-            "printedName": "fromObjC(_:)",
+            "name": "fromNumeric",
+            "printedName": "fromNumeric(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5226,14 +4963,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "NudgeVersionObjc",
-                "printedName": "nudge.Nudge.NudgeVersionObjc",
-                "usr": "s:5nudge5NudgeC0B11VersionObjcO"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5nudge5NudgeC8fromObjCyAC0B7VersionOAC0bE4ObjcOFZ",
-            "mangledName": "$s5nudge5NudgeC8fromObjCyAC0B7VersionOAC0bE4ObjcOFZ",
+            "usr": "s:5nudge5NudgeC11fromNumericyAC0B7VersionOSiFZ",
+            "mangledName": "$s5nudge5NudgeC11fromNumericyAC0B7VersionOSiFZ",
             "moduleName": "nudge",
             "static": true,
             "declAttributes": [
@@ -7429,349 +7166,349 @@
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 795,
-      "length": 34,
-      "value": "\"actions-by-location-and-datetime\""
+      "length": 14,
+      "value": "\"mobile\/ablad\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 875,
-      "length": 28,
-      "value": "\"users\/toggle-notifications\""
+      "offset": 855,
+      "length": 35,
+      "value": "\"mobile\/users\/toggle-notifications\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 932,
       "length": 22,
       "value": "\"mobile\/federation-id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1009,
+      "offset": 996,
       "length": 29,
       "value": "\"mobile\/enable-disable-nudge\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1072,
       "length": 33,
       "value": "\"mobile\/notification-permissions\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1158,
+      "offset": 1145,
       "length": 23,
       "value": "\"mobile\/nudge-received\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1206,
       "length": 21,
       "value": "\"mobile\/nudge-tapped\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1444,
+      "offset": 1431,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1492,
+      "offset": 1479,
       "length": 15,
       "value": "\"federation_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1527,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1584,
+      "offset": 1571,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1614,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1669,
+      "offset": 1656,
       "length": 11,
       "value": "\"bundle_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
+      "offset": 1708,
       "length": 17,
       "value": "\"device_platform\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1760,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1812,
       "length": 25,
       "value": "\"device_platform_version\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 1875,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1932,
+      "offset": 1919,
       "length": 21,
       "value": "\"device_manufacturer\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1985,
+      "offset": 1972,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2034,
+      "offset": 2021,
       "length": 10,
       "value": "\"timezone\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2077,
+      "offset": 2064,
       "length": 8,
       "value": "\"toggle\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2118,
+      "offset": 2105,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2160,
+      "offset": 2147,
       "length": 9,
       "value": "\"disable\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2205,
+      "offset": 2192,
       "length": 12,
       "value": "\"is_enabled\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 2245,
       "length": 17,
       "value": "\"organization_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2324,
+      "offset": 2311,
       "length": 25,
       "value": "\"notification_permission\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2394,
+      "offset": 2381,
       "length": 21,
       "value": "\"location_permission\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2451,
+      "offset": 2438,
       "length": 12,
       "value": "\"message_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2501,
+      "offset": 2488,
       "length": 13,
       "value": "\"breadcrumbs\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2550,
+      "offset": 2537,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2616,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2673,
+      "offset": 2660,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2725,
+      "offset": 2712,
       "length": 17,
       "value": "\"organization_id\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2782,
+      "offset": 2769,
       "length": 15,
       "value": "\"notifications\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2837,
+      "offset": 2824,
       "length": 16,
       "value": "\"library_config\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2945,
+      "offset": 2932,
       "length": 18,
       "value": "\"desired_accuracy\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3004,
+      "offset": 2991,
       "length": 17,
       "value": "\"distance_filter\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3063,
+      "offset": 3050,
       "length": 23,
       "value": "\"analytics_api_key_ios\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3130,
+      "offset": 3117,
       "length": 24,
       "value": "\"tokendealer_secret_ios\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3200,
+      "offset": 3187,
       "length": 27,
       "value": "\"ios_location_dialog_title\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 3259,
       "length": 26,
       "value": "\"ios_location_dialog_body\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3574,
+      "offset": 3561,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3656,
+      "offset": 3643,
       "length": 6,
       "value": "\"CORE\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3700,
+      "offset": 3687,
       "length": 14,
       "value": "\"access_token\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3785,
+      "offset": 3772,
       "length": 8,
       "value": "\"apiKey\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3823,
+      "offset": 3810,
       "length": 9,
       "value": "\"enabled\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3873,
+      "offset": 3860,
       "length": 20,
       "value": "\"showLocationDialog\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 3915,
       "length": 14,
       "value": "\"federationId\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3977,
+      "offset": 3964,
       "length": 14,
       "value": "\"nudgeVersion\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/NudgeBase\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6558,
+      "offset": 6545,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
@@ -7799,42 +7536,42 @@
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/EnvironmentUtils\/EnvironmentUtils.swift",
       "kind": "StringLiteral",
-      "offset": 293,
+      "offset": 288,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/EnvironmentUtils\/EnvironmentUtils.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 317,
       "length": 9,
       "value": "\"staging\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/EnvironmentUtils\/EnvironmentUtils.swift",
       "kind": "StringLiteral",
-      "offset": 352,
+      "offset": 347,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/EnvironmentUtils\/EnvironmentUtils.swift",
       "kind": "StringLiteral",
-      "offset": 377,
+      "offset": 372,
       "length": 4,
       "value": "\"dr\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/EnvironmentUtils\/EnvironmentUtils.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 438,
       "length": 6,
       "value": "\"core\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/EnvironmentUtils\/EnvironmentUtils.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 472,
       "length": 13,
       "value": "\"tokendealer\""
     },
@@ -7878,7 +7615,7 @@
       "kind": "StringLiteral",
       "offset": 131,
       "length": 7,
-      "value": "\"4.1.0\""
+      "value": "\"4.1.1\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/KeyValueStore\/KeyValueStore.swift",
@@ -8239,29 +7976,8 @@
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
-      "kind": "IntegerLiteral",
-      "offset": 575,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
-      "kind": "IntegerLiteral",
-      "offset": 599,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Classes\/Nudge.swift",
       "kind": "Dictionary",
-      "offset": 1135,
+      "offset": 972,
       "length": 3,
       "value": "[]"
     },
