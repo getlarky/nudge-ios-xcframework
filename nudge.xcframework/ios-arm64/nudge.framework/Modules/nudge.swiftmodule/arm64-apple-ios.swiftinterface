@@ -160,17 +160,7 @@ public struct KeyValueStore {
       get
     }
   }
-  @objc public enum NudgeVersionObjc : Swift.Int {
-    case standard = 0
-    case geo = 1
-    case legacy = 2
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  public static func fromObjC(_ version: nudge.Nudge.NudgeVersionObjc) -> nudge.Nudge.NudgeVersion
+  public static func fromNumeric(_ version: Swift.Int) -> nudge.Nudge.NudgeVersion
   public enum NudgeErrors : Swift.Error {
     case unsupportediOSVersion
     public static func == (a: nudge.Nudge.NudgeErrors, b: nudge.Nudge.NudgeErrors) -> Swift.Bool
@@ -237,8 +227,5 @@ extension nudge.HttpMethod : Swift.RawRepresentable {}
 extension nudge.Nudge.NudgeVersion : Swift.Equatable {}
 extension nudge.Nudge.NudgeVersion : Swift.Hashable {}
 extension nudge.Nudge.NudgeVersion : Swift.RawRepresentable {}
-extension nudge.Nudge.NudgeVersionObjc : Swift.Equatable {}
-extension nudge.Nudge.NudgeVersionObjc : Swift.Hashable {}
-extension nudge.Nudge.NudgeVersionObjc : Swift.RawRepresentable {}
 extension nudge.Nudge.NudgeErrors : Swift.Equatable {}
 extension nudge.Nudge.NudgeErrors : Swift.Hashable {}
