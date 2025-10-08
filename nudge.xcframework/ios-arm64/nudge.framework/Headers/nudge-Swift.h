@@ -298,31 +298,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="nudge",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="Nudge",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC5nudge9CustomLog")
+SWIFT_CLASS("_TtC5Nudge9CustomLog")
 @interface CustomLog : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC5nudge13HttpClientApi")
+
+SWIFT_CLASS("_TtC5Nudge13HttpClientApi")
 @interface HttpClientApi : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class NSString;
 @class NSData;
 @class UIApplication;
 @class UNNotification;
 
-SWIFT_CLASS("_TtC5nudge5Nudge")
+SWIFT_CLASS("_TtC5Nudge5Nudge")
 @interface Nudge : NSObject
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)IsEnabled SWIFT_WARN_UNUSED_RESULT;
 - (void)setFederationIdWithFederationId:(NSString * _Nonnull)federationId;
 - (void)registerForLocationServicesWithShowLocationDialog:(BOOL)showLocationDialog;
 - (void)setNudgeEnabledWithIsNudgeEnabled:(BOOL)isNudgeEnabled;
@@ -336,7 +339,7 @@ SWIFT_CLASS("_TtC5nudge5Nudge")
 @end
 
 
-SWIFT_CLASS("_TtC5nudge9NudgeBase")
+SWIFT_CLASS_NAMED("NudgeBase")
 @interface NudgeBase : NSObject
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -344,7 +347,7 @@ SWIFT_CLASS("_TtC5nudge9NudgeBase")
 @end
 
 
-SWIFT_CLASS("_TtC5nudge8NudgeGeo")
+SWIFT_CLASS_NAMED("NudgeGeo")
 @interface NudgeGeo : NudgeBase
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options callback:(void (^ _Nullable)(void))callback OBJC_DESIGNATED_INITIALIZER;
 + (NSString * _Nonnull)getLocationPermissionStatus SWIFT_WARN_UNUSED_RESULT;
@@ -353,7 +356,7 @@ SWIFT_CLASS("_TtC5nudge8NudgeGeo")
 @end
 
 
-SWIFT_CLASS("_TtC5nudge18NudgeVersionBridge")
+SWIFT_CLASS("_TtC5Nudge18NudgeVersionBridge")
 @interface NudgeVersionBridge : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
