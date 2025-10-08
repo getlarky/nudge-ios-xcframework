@@ -1,41 +1,20 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name nudge
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Nudge
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreLocation
 import Foundation
 import MessageUI
 import Swift
-import SystemConfiguration
 import UIKit
 import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
-@_exported import nudge
 import os
-public struct Constants {
-  public struct Core {
-    public struct Endpoints {
-      public static let actionsByLocationAndDatetime: Swift.String
-    }
-  }
-  public static let dateFormat: Swift.String
-}
-@objc @_inheritsConvenienceInitializers public class CustomLog : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  public func infoLocationTracking(message: Swift.String)
-  public func debugLocationTracking(message: Swift.String)
-  public func errorLocationTracking(message: Swift.String)
-  public func infoNudgeInit(message: Swift.String)
-  public func debugNudgeInit(message: Swift.String)
-  public func errorNudgeInit(message: Swift.String)
-  public func debug(message: Swift.String)
-  @objc deinit
-}
 public class EnvironmentUtils {
-  public enum Environment : Swift.String {
+  public enum Environment : Swift.String, Swift.Sendable {
     case DEV
     case STAGING
     case PROD
@@ -57,27 +36,7 @@ public class EnvironmentUtils {
   }
   public init()
   public static func getEnv() -> Swift.String
-  public static func setEnv(envIn: nudge.EnvironmentUtils.Environment)
-  public static func setEnvByName(rawValueIn: Swift.String)
   public static func getNudgeURL(service: Swift.String) -> Swift.String
-  @objc deinit
-}
-public enum HttpMethod : Swift.String {
-  case GET
-  case POST
-  case DELETE
-  case PUT
-  case PATCH
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@objc @_inheritsConvenienceInitializers open class HttpClientApi : ObjectiveC.NSObject {
-  public static func instance() -> nudge.HttpClientApi
-  public func makeAPICall(url: Swift.String, params: Swift.Dictionary<Swift.String, Any>?, method: nudge.HttpMethod, success: @escaping (Foundation.Data?, Foundation.HTTPURLResponse?, Foundation.NSError?) -> Swift.Void, failure: @escaping (Foundation.Data?, Foundation.HTTPURLResponse?, Foundation.NSError?) -> Swift.Void, canBeReauthorized: Swift.Bool = true, isRetry: Swift.Bool = false)
-  @objc override dynamic public init()
   @objc deinit
 }
 public struct KeyValueStore {
@@ -86,7 +45,9 @@ public struct KeyValueStore {
   public static let deviceManufacturer: Swift.String
   public static let apiKey: Swift.String
   public static let nudgeVersion: Swift.String
-  public static let deviceVersion: Swift.String
+  public static var deviceVersion: Swift.String {
+    get
+  }
   public static let timezoneValue: Swift.String
   public static let userId: Swift.String
   public static let federationId: Swift.String
@@ -111,6 +72,7 @@ public struct KeyValueStore {
   public static let howManyTimesPrompted: Swift.String
   public static let notificationPermission: Swift.String
   public static let locationPermission: Swift.String
+  public static let preferredLanguage: Swift.String
   public struct Defaults {
   }
   public static let authorizationHeader: Swift.String
@@ -150,7 +112,7 @@ public struct KeyValueStore {
   public static func registerObjects(defaults: [Swift.String : Any])
 }
 @objc open class Nudge : ObjectiveC.NSObject {
-  public enum NudgeVersion : Swift.String {
+  public enum NudgeVersion : Swift.String, Swift.Sendable {
     case nudgeStandard
     case nudgeGeo
     case nudgeLegacy
@@ -160,16 +122,17 @@ public struct KeyValueStore {
       get
     }
   }
-  public static func fromNumeric(_ version: Swift.Int) -> nudge.Nudge.NudgeVersion
+  public static func fromNumeric(_ version: Swift.Int) -> Nudge.Nudge.NudgeVersion
   public enum NudgeErrors : Swift.Error {
     case unsupportediOSVersion
-    public static func == (a: nudge.Nudge.NudgeErrors, b: nudge.Nudge.NudgeErrors) -> Swift.Bool
+    public static func == (a: Nudge.Nudge.NudgeErrors, b: Nudge.Nudge.NudgeErrors) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
   }
   @objc public init(options: Swift.Dictionary<Swift.String, Any> = [:])
+  @objc public func IsEnabled() -> Swift.Bool
   @objc public func setFederationId(federationId: Swift.String)
   @objc public func registerForLocationServices(showLocationDialog: Swift.Bool)
   @objc public func setNudgeEnabled(isNudgeEnabled: Swift.Bool)
@@ -178,54 +141,101 @@ public struct KeyValueStore {
   @objc public static func onFailedToRegisterForNotifications(error: any Swift.Error)
   @objc public static func receivedPush(notificationPayload: [Swift.AnyHashable : Any], application: UIKit.UIApplication)
   @available(iOS 10.0, *)
-  @objc public static func tappedNotification(notification: UserNotifications.UNNotification)
+  @_Concurrency.MainActor @objc public static func tappedNotification(notification: UserNotifications.UNNotification)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class NudgeVersionBridge : ObjectiveC.NSObject {
-  public static let nudgeBase: nudge.Nudge.NudgeVersion
-  public static let nudgeGeo: nudge.Nudge.NudgeVersion
-  public static let nudgeLegacy: nudge.Nudge.NudgeVersion
+  public static let nudgeBase: Nudge.Nudge.NudgeVersion
+  public static let nudgeGeo: Nudge.Nudge.NudgeVersion
+  public static let nudgeLegacy: Nudge.Nudge.NudgeVersion
   @objc override dynamic public init()
   @objc deinit
 }
-@objc open class NudgeBase : ObjectiveC.NSObject {
+public struct Constants {
+  public struct Core {
+    public struct Endpoints {
+      public static let actionsByLocationAndDatetime: Swift.String
+    }
+  }
+  public static let dateFormat: Swift.String
+}
+@objc @_inheritsConvenienceInitializers final public class CustomLog : ObjectiveC.NSObject, Swift.Sendable {
+  @objc override dynamic public init()
+  final public func infoLocationTracking(message: Swift.String)
+  final public func debugLocationTracking(message: Swift.String)
+  final public func errorLocationTracking(message: Swift.String)
+  final public func infoNudgeInit(message: Swift.String)
+  final public func debugNudgeInit(message: Swift.String)
+  final public func errorNudgeInit(message: Swift.String)
+  final public func debug(message: Swift.String)
+  final public func infoNudgePermissions(message: Swift.String)
+  final public func debugNudgePermissions(message: Swift.String)
+  final public func errorNudgePermissions(message: Swift.String)
+  final public func infoNudgeMessaging(message: Swift.String)
+  final public func debugNudgeMessaging(message: Swift.String)
+  final public func errorNudgeMessaging(message: Swift.String)
+  @objc deinit
+}
+public enum HttpMethod : Swift.String, Swift.Sendable {
+  case GET
+  case POST
+  case DELETE
+  case PUT
+  case PATCH
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class HttpClientApi : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  public static func instance() -> Nudge.HttpClientApi
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.HTTPURLResponse : @unchecked Swift.Sendable {
+}
+extension Foundation.NSError : @unchecked Swift.Sendable {
+}
+@objc(NudgeBase) open class NudgeBase : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   public static let bundleId: Swift.String?
   public static let deviceModel: Swift.String
   public static let osVersion: Swift.String
   public static let platform: Swift.String
+  public static let logger: Nudge.CustomLog
   @objc public init(options: Swift.Dictionary<Swift.String, Any> = [:])
   public static func toggleEnabled(enabled: Swift.Bool, success: @escaping (Swift.Bool) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   public func isEnabled() -> Swift.Bool
   public class func checkIfEnabledUpdated(isEnabled: Swift.Bool)
   public static func getDeviceModel() -> Swift.String
-  public func initializeNudge(apiKey: Swift.String, federationId: Swift.String, userId: Swift.String?, deviceId: Swift.String?, success: @escaping (Swift.String, Swift.String) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
-  public static func registerToken(deviceId: Swift.String?, token: Swift.String?, bundleId: Swift.String?, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  public func initializeNudge(apiKey: Swift.String, federationId: Swift.String, userId: Swift.String?, deviceId: Swift.String?, success: @escaping @Sendable (Swift.String, Swift.String) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  public static func registerToken(deviceId: Swift.String?, token: Swift.String?, bundleId: Swift.String?, success: @escaping @Sendable () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   public class func checkNotificationPermissions()
   public func setFederationId(federationId: Swift.String)
-  public class func setNudgeEnabled(isNudgeEnabled: Swift.Bool, success: @escaping (Swift.Bool) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  public class func setNudgeEnabled(isNudgeEnabled: Swift.Bool, success: @escaping @Sendable (Swift.Bool) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   public static func setNotificationPermissions(result: Swift.String)
   public static func trackMessageEvent(endpointName: Swift.String, notificationPayload: [Swift.AnyHashable : Any])
   @objc deinit
 }
-@objc public class NudgeGeo : nudge.NudgeBase {
+@objc(NudgeGeo) public class NudgeGeo : Nudge.NudgeBase {
   @objc public init(options: Swift.Dictionary<Swift.String, Any> = [:], callback: (() -> Swift.Void)? = nil)
   @objc public class func getLocationPermissionStatus() -> Swift.String
   @objc public class func setKeyValueStoreLocationPermissionDefault()
-  public func registerForLocationServices(callback: (() -> Swift.Void)? = nil)
+  public func registerForLocationServices(callback: (@Sendable () -> Swift.Void)? = nil)
   public static func setLocationPermissions(result: Swift.String)
   @objc deinit
 }
-extension nudge.EnvironmentUtils.Environment : Swift.Equatable {}
-extension nudge.EnvironmentUtils.Environment : Swift.Hashable {}
-extension nudge.EnvironmentUtils.Environment : Swift.RawRepresentable {}
-extension nudge.EnvironmentUtils.Service : Swift.Equatable {}
-extension nudge.EnvironmentUtils.Service : Swift.Hashable {}
-extension nudge.EnvironmentUtils.Service : Swift.RawRepresentable {}
-extension nudge.HttpMethod : Swift.Equatable {}
-extension nudge.HttpMethod : Swift.Hashable {}
-extension nudge.HttpMethod : Swift.RawRepresentable {}
-extension nudge.Nudge.NudgeVersion : Swift.Equatable {}
-extension nudge.Nudge.NudgeVersion : Swift.Hashable {}
-extension nudge.Nudge.NudgeVersion : Swift.RawRepresentable {}
-extension nudge.Nudge.NudgeErrors : Swift.Equatable {}
-extension nudge.Nudge.NudgeErrors : Swift.Hashable {}
+extension Nudge.EnvironmentUtils.Environment : Swift.Equatable {}
+extension Nudge.EnvironmentUtils.Environment : Swift.Hashable {}
+extension Nudge.EnvironmentUtils.Environment : Swift.RawRepresentable {}
+extension Nudge.EnvironmentUtils.Service : Swift.Equatable {}
+extension Nudge.EnvironmentUtils.Service : Swift.Hashable {}
+extension Nudge.EnvironmentUtils.Service : Swift.RawRepresentable {}
+extension Nudge.Nudge.NudgeVersion : Swift.Equatable {}
+extension Nudge.Nudge.NudgeVersion : Swift.Hashable {}
+extension Nudge.Nudge.NudgeVersion : Swift.RawRepresentable {}
+extension Nudge.Nudge.NudgeErrors : Swift.Equatable {}
+extension Nudge.Nudge.NudgeErrors : Swift.Hashable {}
+extension Nudge.HttpMethod : Swift.Equatable {}
+extension Nudge.HttpMethod : Swift.Hashable {}
+extension Nudge.HttpMethod : Swift.RawRepresentable {}
