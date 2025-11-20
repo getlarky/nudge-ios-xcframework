@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/Nudge-Swift.h</key>
 		<data>
-		vt4846uj5ZWgCqj+rje+hpmSdjA=
+		tHRqC9xbPghBenrodWaOKUmk0WI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		o5V49uN1br8dPP2uhhaCYeeIkGw=
+		ma1FATIQJ0m1BW0BBr63TCqxrH0=
 		</data>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dHQG6c7glCujxkY6pNFBqZK4mFQ=
+		bVf6bkoMrCHyyVzXjs48ZAON+1k=
 		</data>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BIsRzmG16+UwJ9984hkePkpRHU8=
+		LnlrnOl/oFBvaWFkipydRgrPaeM=
 		</data>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		r65z7uq1HewJZJBv4F88hZ/Ex+w=
+		9R+zAURmfp4rum7U4IvJ2Zvghlk=
 		</data>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BIsRzmG16+UwJ9984hkePkpRHU8=
+		LnlrnOl/oFBvaWFkipydRgrPaeM=
 		</data>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VHdfsVRpo9tMpdj2/1PnJGsyoTk=
+		n9hRBrmuXKP0kJ+4d9u1CpGOHn0=
 		</data>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dHQG6c7glCujxkY6pNFBqZK4mFQ=
+		bVf6bkoMrCHyyVzXjs48ZAON+1k=
 		</data>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NYkseh4UTDOrxnqcKI6NH6ahEbE=
+		GyFvK7sRnWk+6JdDG1UGZ6cETb4=
 		</data>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7cDyEYTEAJ4FuSReArV9gtCwbUc=
+		4EeA7t3HS+1nZzBL6zOipFhUo0c=
 		</data>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NYkseh4UTDOrxnqcKI6NH6ahEbE=
+		GyFvK7sRnWk+6JdDG1UGZ6cETb4=
 		</data>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t9HNQyjjtGnl4aRifB9ltMn5+Ek=
+		SGvSQsmVkHA+ZV7gqrEIIowdhPU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,77 +59,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9386GOwFyGxidAMYoTyNKpVEqAOmcol043yEYhN1VgQ=
+			WgWJF2x9kr0n9IBEq5wRbCzNv+XUEAhJN5GQuhPcANU=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gu/B60Mhdz+XDGWwNrPKOc5lttl4Egc61h3d1oZvUWU=
+			RDRKUJALf1IYmeS01HXyXuzJ9tRfUZypqDrbk/27Dek=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+JnLn9QzZmDTgqBEvQM4C/qQDP2+OnBafWxeV7EeMg=
+			LQG0TBWHjB3dBbhqaN3694JRKoTBhjtYy/OZxU6wZVM=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h5Dde9iEcaQtQ02vHxlTs2F8hHNBZ92TdpVITDzlxms=
+			6tAipdg13PvkhxlobTAoFN6LKmtz8moXoGhYI+oQpJo=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+JnLn9QzZmDTgqBEvQM4C/qQDP2+OnBafWxeV7EeMg=
+			LQG0TBWHjB3dBbhqaN3694JRKoTBhjtYy/OZxU6wZVM=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xfZPWawd4UcGJcCmDcppMPRD7h7pPfknWEbCmQYv1Z4=
+			tERqiFQXgG1H4LcH98TD5muGWo/4z4QgwYSS+ZM1Bcg=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gu/B60Mhdz+XDGWwNrPKOc5lttl4Egc61h3d1oZvUWU=
+			RDRKUJALf1IYmeS01HXyXuzJ9tRfUZypqDrbk/27Dek=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rgRyPE0Np03j5/KHRag6GaErixnE+bbRttPVuyQ+nik=
+			+ShhpZaT+RGPVxB+Pfhlh0FokTxV64T8SLXJRIs8R74=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HW0voMBr2MN33baGj8XRI5A4FlutZkkB2F+FrNm89Jk=
+			wzlnu210BI5+Cjd1St/Lh8HO8B9Mq4N+kTZkysY/dms=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rgRyPE0Np03j5/KHRag6GaErixnE+bbRttPVuyQ+nik=
+			+ShhpZaT+RGPVxB+Pfhlh0FokTxV64T8SLXJRIs8R74=
 			</data>
 		</dict>
 		<key>Modules/Nudge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+RjOqN/OO73ideB0rLHFkJHjPYPfgZPDBXdx3PDhOac=
+			IUmAnAM3C922RGa4+ONPjvJ4F0C5XRvQiQJn/eBkONM=
 			</data>
 		</dict>
 	</dict>
