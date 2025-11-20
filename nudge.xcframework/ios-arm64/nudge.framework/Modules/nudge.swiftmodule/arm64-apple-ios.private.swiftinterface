@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Nudge
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Nudge
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import CoreLocation
 import Foundation
 import MessageUI
@@ -19,7 +19,9 @@ public class EnvironmentUtils {
     case STAGING
     case PROD
     case DR
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -28,7 +30,9 @@ public class EnvironmentUtils {
   public enum Service : Swift.String {
     case CORE
     case TOKENDEALER
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -98,8 +102,12 @@ public struct KeyValueStore {
     public static let longitude: Swift.String
   }
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getString(key: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func putString(key: Swift.String, value: Swift.String?)
+  #endif
   public static func getBoolean(key: Swift.String) -> Swift.Bool
   public static func putBoolean(key: Swift.String, value: Swift.Bool)
   public static func getDouble(key: Swift.String) -> Swift.Double
@@ -116,7 +124,9 @@ public struct KeyValueStore {
     case nudgeStandard
     case nudgeGeo
     case nudgeLegacy
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -182,7 +192,9 @@ public enum HttpMethod : Swift.String, Swift.Sendable {
   case DELETE
   case PUT
   case PATCH
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -208,8 +220,12 @@ extension Foundation.NSError : @unchecked Swift.Sendable {
   public func isEnabled() -> Swift.Bool
   public class func checkIfEnabledUpdated(isEnabled: Swift.Bool)
   public static func getDeviceModel() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initializeNudge(apiKey: Swift.String, federationId: Swift.String, userId: Swift.String?, deviceId: Swift.String?, success: @escaping @Sendable (Swift.String, Swift.String) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func registerToken(deviceId: Swift.String?, token: Swift.String?, bundleId: Swift.String?, success: @escaping @Sendable () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  #endif
   public class func checkNotificationPermissions()
   public func setFederationId(federationId: Swift.String)
   public class func setNudgeEnabled(isNudgeEnabled: Swift.Bool, success: @escaping @Sendable (Swift.Bool) -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
@@ -218,10 +234,14 @@ extension Foundation.NSError : @unchecked Swift.Sendable {
   @objc deinit
 }
 @objc(NudgeGeo) public class NudgeGeo : Nudge.NudgeBase {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(options: Swift.Dictionary<Swift.String, Any> = [:], callback: (() -> Swift.Void)? = nil)
+  #endif
   @objc public class func getLocationPermissionStatus() -> Swift.String
   @objc public class func setKeyValueStoreLocationPermissionDefault()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func registerForLocationServices(callback: (@Sendable () -> Swift.Void)? = nil)
+  #endif
   public static func setLocationPermissions(result: Swift.String)
   @objc deinit
 }
