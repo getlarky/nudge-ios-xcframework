@@ -152,6 +152,7 @@ public struct KeyValueStore {
   @objc public static func receivedPush(notificationPayload: [Swift.AnyHashable : Any], application: UIKit.UIApplication)
   @available(iOS 10.0, *)
   @_Concurrency.MainActor @objc public static func tappedNotification(notification: UserNotifications.UNNotification)
+  @objc public static func handleRichPushNotification(request: UserNotifications.UNNotificationRequest, contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class NudgeVersionBridge : ObjectiveC.NSObject {

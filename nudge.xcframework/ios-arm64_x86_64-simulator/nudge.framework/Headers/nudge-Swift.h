@@ -319,6 +319,8 @@ SWIFT_CLASS("_TtC5Nudge13HttpClientApi")
 @class NSData;
 @class UIApplication;
 @class UNNotification;
+@class UNNotificationRequest;
+@class UNNotificationContent;
 SWIFT_CLASS("_TtC5Nudge5Nudge")
 @interface Nudge : NSObject
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options OBJC_DESIGNATED_INITIALIZER;
@@ -331,6 +333,7 @@ SWIFT_CLASS("_TtC5Nudge5Nudge")
 + (void)onFailedToRegisterForNotificationsWithError:(NSError * _Nonnull)error;
 + (void)receivedPushWithNotificationPayload:(NSDictionary * _Nonnull)notificationPayload application:(UIApplication * _Nonnull)application;
 + (void)tappedNotificationWithNotification:(UNNotification * _Nonnull)notification SWIFT_AVAILABILITY(ios,introduced=10.0);
++ (void)handleRichPushNotificationWithRequest:(UNNotificationRequest * _Nonnull)request contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -684,6 +687,8 @@ SWIFT_CLASS("_TtC5Nudge13HttpClientApi")
 @class NSData;
 @class UIApplication;
 @class UNNotification;
+@class UNNotificationRequest;
+@class UNNotificationContent;
 SWIFT_CLASS("_TtC5Nudge5Nudge")
 @interface Nudge : NSObject
 - (nonnull instancetype)initWithOptions:(NSDictionary<NSString *, id> * _Nonnull)options OBJC_DESIGNATED_INITIALIZER;
@@ -696,6 +701,7 @@ SWIFT_CLASS("_TtC5Nudge5Nudge")
 + (void)onFailedToRegisterForNotificationsWithError:(NSError * _Nonnull)error;
 + (void)receivedPushWithNotificationPayload:(NSDictionary * _Nonnull)notificationPayload application:(UIApplication * _Nonnull)application;
 + (void)tappedNotificationWithNotification:(UNNotification * _Nonnull)notification SWIFT_AVAILABILITY(ios,introduced=10.0);
++ (void)handleRichPushNotificationWithRequest:(UNNotificationRequest * _Nonnull)request contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

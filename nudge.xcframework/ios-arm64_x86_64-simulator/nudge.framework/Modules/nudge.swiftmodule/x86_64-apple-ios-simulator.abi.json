@@ -4726,6 +4726,54 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "handleRichPushNotification",
+            "printedName": "handleRichPushNotification(request:contentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationContent",
+                    "printedName": "UserNotifications.UNNotificationContent",
+                    "usr": "c:objc(cs)UNNotificationContent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Nudge@objc(cs)Nudge(cm)handleRichPushNotificationWithRequest:contentHandler:",
+            "mangledName": "$s5NudgeAAC26handleRichPushNotification7request14contentHandlerySo21UNNotificationRequestC_ySo0I7ContentCctFZ",
+            "moduleName": "Nudge",
+            "static": true,
+            "objc_name": "handleRichPushNotificationWithRequest:contentHandler:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -13302,7 +13350,7 @@
       "kind": "StringLiteral",
       "offset": 131,
       "length": 7,
-      "value": "\"4.1.4\""
+      "value": "\"4.2.0\""
     },
     {
       "filePath": "\/Users\/connorsouthwell\/nudgeSL\/nudge-ios-SingleLibrary\/nudge\/Sources\/Nudge\/KeyValueStore\/KeyValueStore.swift",
